@@ -1,5 +1,5 @@
 :root {
-  font-family: calibri, arial, sans-serif;
+  font-family: arial, sans-serif;
   color: #242424;
 }
 * {
@@ -34,15 +34,20 @@ input {
   border-radius: 8px 0 0 8px;
   padding-left: 10px;
   border-style: hidden;
+  font-size: 1rem;
 }
 .search-btn {
   width: 20%;
   height: 100%;
   border-radius: 0 8px 8px 0;
   border-style: hidden;
-  font-size: 15px;
   color: #e4e7eb;
   background-color: #467778;
+  font-weight: 700;
+  cursor: pointer;
+}
+.search-btn:hover {
+  color: orange;
 }
 main {
   height: 65vh;
@@ -79,8 +84,15 @@ main {
   margin-top: 10px;
 }
 .unit {
-  height: 40px;
   border-radius: 50%;
   border-style: hidden;
   background-color: #d78998;
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #e8e5e5;
+  cursor: pointer;
+}
+.unit:hover {
+  background-color: #b56776;
 }
